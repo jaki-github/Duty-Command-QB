@@ -7,4 +7,4 @@ You can put that code in qb-policejob/client/main.lua. That's what I've done and
 ```
 RegisterCommand("duty", function()
     TriggerServerEvent("QBCore:ToggleDuty")
-end) 
+end, false) 
